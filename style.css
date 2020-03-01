@@ -48,7 +48,11 @@ body {
 	background-image: url('./assets/false.png');
 }
 
-
+@media (max-width: 414px) {
+	.container .form input {
+		width: 100%;
+	}
+}
 
 
 
